@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.sanctuary" name="Sanctuary Repository" version="1.0" provider-name="Sanctuary">
+<addon id="repository.sanctuary" name="Sanctuary Repository" version="1.0" provider-name="DonkeykongArcade">
     <extension point="xbmc.addon.repository" name="Sanctuary Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/DonkeykongArcade/repository.sanctuary/master/repo/zips/addons.xml</info>
@@ -15,6 +15,7 @@
     <extension point="xbmc.addon.metadata">
         <summary>Sanctuary Repository</summary>
         <description>Kodi repository that contains all necessary repos to setup IPTV and FEN Light + a FENtastic skin upgrade</description>
+		<website>https://DonkeykongArcade.github.io</website>
         <disclaimer></disclaimer>
         <platform>all</platform>
         <assets>
