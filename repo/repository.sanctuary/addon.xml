@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.sanctuary" name="Sanctuary Repository" version="1.0.5" provider-name="DonkeykongArcade">
+<addon id="repository.sanctuary" name="Sanctuary Repository" version="1.0.7" provider-name="DonkeykongArcade">
     <extension point="xbmc.addon.repository" name="Sanctuary Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/DonkeykongArcade/repository.sanctuary/main/repo/zips/addons.xml</info>
