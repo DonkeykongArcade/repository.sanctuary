@@ -1,3 +1,9 @@
 [submodule "repo/skin.fentastic"]
 	path = repo/skin.fentastic
 	url = https://github.com/DonkeykongArcade/skin.fentastic
+[submodule "repo/plugin.video.vavooto"]
+	path = repo/plugin.video.vavooto
+	url = https://github.com/DonkeykongArcade/plugin.video.vavooto
+[submodule "repo/plugin.video.xstream"]
+	path = repo/plugin.video.xstream
+	url = https://github.com/DonkeykongArcade/plugin.video.xstream
