@@ -76,7 +76,7 @@
 			<clearlogo>resources/clearlogo.png</clearlogo>
 		</assets>
 	</extension>
-</addon><addon id="repository.sanctuary" name="Sanctuary Repository" version="1.0.16" provider-name="DonkeykongArcade">
+</addon><addon id="repository.sanctuary" name="Sanctuary Repository" version="1.0.17" provider-name="DonkeykongArcade">
     <extension point="xbmc.addon.repository" name="Sanctuary Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/DonkeykongArcade/repository.sanctuary/main/repo/zips/addons.xml</info>
