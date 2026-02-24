@@ -7,3 +7,6 @@
 [submodule "repo/plugin.video.xstream"]
 	path = repo/plugin.video.xstream
 	url = https://github.com/DonkeykongArcade/plugin.video.xstream
+[submodule "repo/plugin.video.xship"]
+	path = repo/plugin.video.xship
+	url = https://github.com/DonkeykongArcade/plugin.video.xship
