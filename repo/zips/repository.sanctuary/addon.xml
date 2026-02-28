@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.sanctuary" name="Sanctuary Repository" version="1.0.19" provider-name="DonkeykongArcade">
+<addon id="repository.sanctuary" name="Sanctuary Repository" version="1.0.22" provider-name="DonkeykongArcade">
     <extension point="xbmc.addon.repository" name="Sanctuary Repository">
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/DonkeykongArcade/repository.sanctuary/main/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/DonkeykongArcade/repository.sanctuary/main/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/DonkeykongArcade/repository.sanctuary/main/repo/zips/</datadir>
+            <info compressed="false">https://sanctuaryrepository.netlify.app/repo/zips/addons.xml</info>
+            <checksum>https://sanctuaryrepository.netlify.app/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://sanctuaryrepository.netlify.app/repo/zips/</datadir>
         </dir>
 		    <info compressed="false">https://slyguy.uk/.repo/repository.slyguy/addons.xml</info>
 			<checksum>https://slyguy.uk/.repo/repository.slyguy/addons.xml.md5</checksum>
