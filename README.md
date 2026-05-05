@@ -6,5 +6,5 @@ https://donkeykongarcade.github.io/repository.sanctuary/
 **FenLightAM** <br>
     https://fenlightanonymouse.github.io/packages/ 
     
-    GITHUB USERNAME			FenlightAnonyMouse <br>
+    GITHUB USERNAME			FenlightAnonyMouse
     GITHUB REPO ADDRESS		FenlightAnonyMouse.github.io
