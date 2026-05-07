@@ -133,41 +133,38 @@ Initial version.
       <screenshot>resources/screenshots/screenshot-01.png</screenshot>
     </assets>
   </extension>
-</addon><addon id="repository.sanctuary" name="Sanctuary Repository" version="1.0.26" provider-name="DonkeykongArcade">
+</addon><addon id="repository.sanctuary" name="Sanctuary Repository" version="1.0.27" provider-name="DonkeykongArcade">
     <extension point="xbmc.addon.repository" name="Sanctuary Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/DonkeykongArcade/repository.sanctuary/main/repo/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/DonkeykongArcade/repository.sanctuary/main/repo/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/DonkeykongArcade/repository.sanctuary/main/repo/zips/</datadir>
         </dir>
+		<dir>
 		    <info compressed="false">https://slyguy.uk/.repo/repository.slyguy/addons.xml</info>
 			<checksum>https://slyguy.uk/.repo/repository.slyguy/addons.xml.md5</checksum>
 			<datadir zip="true">https://slyguy.uk/.repo/repository.slyguy/</datadir>
+		</dir>
         <dir>
 			<info compressed="false">https://raw.githubusercontent.com/matke-84/repository.bingie/main/omega/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/matke-84/repository.bingie/main/omega/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/matke-84/repository.bingie/main/omega/</datadir>
-		</dir>        
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/main/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/main/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/main/zips/</datadir>
-		</dir>		
+		</dir>
 		<dir minversion="20.90.0">
             <info compressed="false">https://raw.githubusercontent.com/umbrellaplug/umbrellaplug.github.io/master/omega/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/umbrellaplug/umbrellaplug.github.io/master/omega/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/umbrellaplug/umbrellaplug.github.io/master/omega/zips/</datadir>
-        </dir>	
+        </dir>
+		<dir minversion="19.0.0">
+            <info compressed="false">https://kodifitzwell.github.io/repo/packages/addons.xml</info>
+            <checksum>https://kodifitzwell.github.io/repo/packages/addons.xml.md5</checksum>
+            <datadir zip="true">https://kodifitzwell.github.io/repo/</datadir>
+        </dir>
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/michaz1988/michaz1988.github.io/main/repo/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/michaz1988/michaz1988.github.io/main/repo/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/michaz1988/michaz1988.github.io/main/repo/</datadir>
-		</dir>		
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/ivarbrandt/repository.ivarbrandt/master/repo/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/ivarbrandt/repository.ivarbrandt/master/repo/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/ivarbrandt/repository.ivarbrandt/master/repo/zips/</datadir>
-		</dir>		
+		</dir>
 		<dir>
 		    <info compressed="false">https://mr-evil1.github.io/kodi-media-repo/addons.xml</info>
             <checksum>https://mr-evil1.github.io/kodi-media-repo/addons.xml.md5</checksum>
@@ -184,6 +181,27 @@ Initial version.
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
         </assets>
+    </extension>
+</addon><addon id="script.fentastic.helper" name="FENtastic Helper" version="0.6.20a" provider-name="Tikipeter, Ivar Brandt">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" version="2.19.1" />
+    </requires>
+    <extension point="xbmc.python.library" library="resources/lib/default.py" />
+    <extension point="xbmc.service" library="resources/lib/service.py" start="startup" />
+    <extension point="xbmc.addon.metadata">
+        <news />
+        <platform>all</platform>
+        <license>GPL-2.0-only</license>
+        <forum />
+        <source />
+        <assets>
+            <icon>resources/media/icon.png</icon>
+            <fanart>resources/media/fanart.jpg</fanart>
+        </assets>
+        <description lang="en_GB">FENtastic Helper for the FENtastic Skin.</description>
+        <description lang="en_NZ">FENtastic Helper for the FENtastic Skin.</description>
+        <description lang="en_US">FENtastic Helper for the FENtastic Skin.</description>
     </extension>
 </addon><addon id="skin.fentastic" version="1.0.28" name="FENtastic" provider-name="Ivar Brandt, DonkeykongArcade">
 	<requires>

@@ -4,3 +4,6 @@
 [submodule "repo/plugin.video.iptv.recorder"]
 	path = repo/plugin.video.iptv.recorder
 	url = https://github.com/DonkeykongArcade/plugin.video.iptv.recorder.git
+[submodule "repo/script.fentastic.helper"]
+	path = repo/script.fentastic.helper
+	url = https://github.com/DonkeykongArcade/script.fentastic.helper
