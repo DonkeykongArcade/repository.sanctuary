@@ -133,7 +133,7 @@ Initial version.
       <screenshot>resources/screenshots/screenshot-01.png</screenshot>
     </assets>
   </extension>
-</addon><addon id="repository.sanctuary" name="Sanctuary Repository" version="1.0.30" provider-name="DonkeykongArcade">
+</addon><addon id="repository.sanctuary" name="Sanctuary Repository" version="1.0.31" provider-name="DonkeykongArcade">
     <extension point="xbmc.addon.repository" name="Sanctuary Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/DonkeykongArcade/repository.sanctuary/main/repo/zips/addons.xml</info>
@@ -198,7 +198,7 @@ Initial version.
         <description lang="en_NZ">FENtastic Helper for the FENtastic Skin.</description>
         <description lang="en_US">FENtastic Helper for the FENtastic Skin.</description>
     </extension>
-</addon><addon id="skin.fentastic" version="1.0.29" name="FENtastic" provider-name="Ivar Brandt, DonkeykongArcade">
+</addon><addon id="skin.fentastic" version="1.0.30" name="FENtastic" provider-name="Ivar Brandt, DonkeykongArcade">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0" />
 		<import addon="script.fentastic.helper" />
